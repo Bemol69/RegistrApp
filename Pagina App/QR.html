@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escanea el QR para Descargar</title>
+    <!-- Estilos específicos para esta página -->
+    <style>
+        /* General */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Fondo blanco */
+            color: #000000; /* Texto negro */
+        }
+
+        /* Contenedor principal */
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* Título */
+        h1 {
+            color: #6a0dad; /* Morado */
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Descripción */
+        p {
+            color: #000000; /* Negro */
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo del QR */
+        .qr-code {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1; /* Fondo gris claro */
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        /* Enlace al archivo */
+        a {
+            color: #6a0dad; /* Color morado */
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Descarga la aplicación escaneando este QR</h1>
+        <p>Escanea el código QR con tu celular para acceder al archivo de la aplicación.</p>
+       
+        <!-- Aquí va el código QR -->
+        <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://drive.google.com/file/d/1c_f9u7s1GG1tOgtaLyhgzcvCzbxCnK02/view?usp=sharing&size=200x200" alt="QR Code">
+        </div>
+    </div>
+
+</body>
+</html>
