@@ -1,2 +1,0 @@
-# RegistrApp
-Aplicacion Movil RegistrApp
